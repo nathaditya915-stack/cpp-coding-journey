@@ -16,4 +16,4 @@ int main () {
     sumOfNaturalNum(101);
     sumOfNaturalNum(100);
     return 0;
-} // u can also revrify it using the formula r(r+1)/2
+} // u can also revrify it using the formula n(n+1)/2
