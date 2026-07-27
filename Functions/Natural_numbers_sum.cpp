@@ -1,19 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void sumOfNaturalNum (int n) {
-    int sum =0;
-
-    for (int i=0; i < n; i++) {
+int sumofNum (int n){
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
         sum += i;
     }
-    cout << "Sum of first " << n << " natural numbers is: " << sum << endl;
+    return sum;
 }
 
-
-
 int main () {
-    sumOfNaturalNum(101);
-    sumOfNaturalNum(100);
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    
+    int result = sumofNum(n);
+    cout << "The sum of numbers from 1 to " << n << " is: " << result << endl;
+
     return 0;
 } // u can also revrify it using the formula n(n+1)/2
