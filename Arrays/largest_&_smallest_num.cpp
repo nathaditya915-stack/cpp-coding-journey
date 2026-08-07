@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include <climits>
+#include <algorithm> // Required for max() and min()
 using namespace std;
 
 int main () {
